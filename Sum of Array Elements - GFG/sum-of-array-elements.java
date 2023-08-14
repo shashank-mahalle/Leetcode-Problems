@@ -44,13 +44,11 @@ class Get
 {
     public static int sumElement(int arr[], int n)
     {
-        // Your code here
-        
         int sum = 0;
-        
+        // Your code here
         for(int i=0; i<n; i++){
-        
-        sum += arr[i] ;   
+            
+        sum += arr[i];    
         }
         return sum;
     }
